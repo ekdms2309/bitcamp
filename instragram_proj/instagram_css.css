@@ -1,0 +1,78 @@
+       * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       }
+
+       body {
+       width: 960px;
+       }
+
+       #header {
+       padding: 20px;
+       border-bottom: 1px solid gray;
+       }
+
+       #icon {
+       margin: 20px;
+       float: left;
+       }
+
+       #search {
+       margin: 20px;
+       margin-left: 100px;
+       }
+
+       #button {
+       float: right;
+       padding-top: 20px;
+       }
+
+       .button {
+       background-color: rgb(56, 151, 240);
+       color: white;
+       padding: 10px;
+       border-radius: 15px;
+       border: 0 solid;
+       font-weight: bold;
+       }
+
+       #profile {
+       width: 200px;
+       border-radius: 200px;
+       }
+
+       #profile_block {
+       float: left;
+       padding: 50px;
+       }
+
+       #nav {
+       height: 304px;
+       }
+
+       #nav>table {
+       padding: 80px 0px;
+       line-height: 30px;
+       }
+
+
+       #context {
+       clear: both;
+       }
+
+       .photo {
+       width: 300px;
+       height: 300px;
+       float: left;
+       padding: 10px;
+       }
+
+       .bold {
+       font-weight: bold;
+       padding-right: 10px;
+       }
+
+       #checkmark {
+       vertical-align: middle;
+       }
