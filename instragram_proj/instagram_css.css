@@ -1,78 +1,87 @@
-       * {
-       margin: 0;
-       padding: 0;
-       box-sizing: border-box;
-       }
+/*전체 초기화*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-       body {
-       width: 960px;
-       }
+/*전체 면적 폭 설정*/
+body {
+    width: 960px;
+}
 
-       #header {
-       padding: 20px;
-       border-bottom: 1px solid gray;
-       }
+/*header, 밑 라인*/
+#header {
+    padding: 20px;
+    border-bottom: 1px solid gray;
+}
 
-       #icon {
-       margin: 20px;
-       float: left;
-       }
+/*header내부 아이콘 위치 설정*/
+#icon {
+    margin: 20px;
+    float: left;
+}
 
-       #search {
-       margin: 20px;
-       margin-left: 100px;
-       }
+#search {
+    margin: 20px;
+    margin-left: 100px;
+}
 
-       #button {
-       float: right;
-       padding-top: 20px;
-       }
+#button {
+    float: right;
+    padding-top: 20px;
+}
 
-       .button {
-       background-color: rgb(56, 151, 240);
-       color: white;
-       padding: 10px;
-       border-radius: 15px;
-       border: 0 solid;
-       font-weight: bold;
-       }
+/*버튼 디자인*/
+.button {
+    background-color: rgb(56, 151, 240);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0 solid;
+    font-weight: bold;
+}
 
-       #profile {
-       width: 200px;
-       border-radius: 200px;
-       }
+/*프로필 사진*/
+#profile {
+    width: 200px;
+    border-radius: 200px;
+}
 
-       #profile_block {
-       float: left;
-       padding: 50px;
-       }
+#profile_block {
+    float: left;
+    padding: 50px;
+}
 
-       #nav {
-       height: 304px;
-       }
+/*프로필 내용*/
+#nav {
+    height: 304px;
+}
 
-       #nav>table {
-       padding: 80px 0px;
-       line-height: 30px;
-       }
+#nav > table {
+    padding: 80px 0px;
+    line-height: 30px;
+}
 
+/*체크마크 위치 -> 수직중간*/
+#checkmark {
+    vertical-align: middle;
+}
 
-       #context {
-       clear: both;
-       }
+/*사진*/
+#context {
+    clear: both;
+}
 
-       .photo {
-       width: 300px;
-       height: 300px;
-       float: left;
-       padding: 10px;
-       }
+.photo {
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding: 10px;
+}
 
-       .bold {
-       font-weight: bold;
-       padding-right: 10px;
-       }
-
-       #checkmark {
-       vertical-align: middle;
-       }
+/*굵은 글씨 설정*/
+.bold {
+    font-weight: bold;
+    padding-right: 10px;
+}
